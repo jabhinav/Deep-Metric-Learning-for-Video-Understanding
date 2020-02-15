@@ -1,7 +1,14 @@
 # Deep-Video-Understanding
 
+## Dataset
+We provide link to dataset used for evaluating our proposed frameworks at https://archive.org/download/gt_20200215 .
+
+The critical frames dataset is labelled as `Sports Dataset.zip`. It (Version 2) contains approx 200 football highlights in the form of short clips (with extracted frames). If `clip-x` contains any critical frames, they are extracted and stored in a seprate folder under `Critical Frames` directory.
+
+The `Dog-Birds Dataset.zip` contains frames extracted from video clips of different breeds of dogs and birds used in the paper for fine-grained retrieval.
+
 ## Citation
- If you use this code in your research, consider citing:
+ If you use the dataset in your research, consider citing:
 ```
 @inproceedings{gupta2018pentuplet,
   title =  {Pentuplet Loss for Simultaneous Shots and Critical Points Detection in a Video},
