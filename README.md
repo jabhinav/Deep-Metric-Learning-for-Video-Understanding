@@ -8,7 +8,7 @@ The critical frames dataset is labelled as `Sports Dataset.zip`. It (Version 2) 
 The `Dog-Birds Dataset.zip` contains frames extracted from video clips of different breeds of dogs and birds used in the paper for fine-grained retrieval.
 
 ## Citation
- If you use the dataset in your research, consider citing:
+ If you use the dataset and research from our papers for further research, consider citing:
 ```
 @inproceedings{gupta2018pentuplet,
   title =  {Pentuplet Loss for Simultaneous Shots and Critical Points Detection in a Video},
