@@ -7,6 +7,11 @@ The critical frames dataset is labelled as `Sports Dataset.zip`. It (Version 2) 
 
 The `Dog-Birds Dataset.zip` contains frames extracted from video clips of different breeds of dogs and birds used in the paper for fine-grained retrieval.
 
+## Additional Experiments and Results
+
+        
+Table 3: Quantitative metrics for order-preserving image ranking task (QP, NDCG) and coarse-grained ranking task (TP, MAP).
+
 ## Citation
  If you use the dataset and research from our papers for further research, consider citing:
 ```
