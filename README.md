@@ -8,8 +8,8 @@ The critical frames dataset is labelled as `Sports Dataset.zip`. It (Version 2) 
 The `Dog-Birds Dataset.zip` contains frames extracted from video clips of different breeds of dogs and birds used in the paper for fine-grained retrieval.
 
 ## Additional Experiments and Results
-||CnD|FcP|FtW||
-||---|---|---||
+| CnD | FcP | FtW |
+| --- | --- | --- |
 ||QP%|NDCG|TP%|MAP| QP%|NDCG|TP%|MAP| QP%|NDCG|TP%|MAP|
 |Triplet|69.19|0.95|86.69|0.80|70.45|0.89|85.32|0.54|42.75|0.88|75.91|0.65 |
 |Quadruplet-1|78.14|0.95|90.99|0.84|79.77|0.90|88.78|0.64|37.12|0.86|71.92|0.59|
