@@ -9,7 +9,7 @@ The `Dog-Birds Dataset.zip` contains frames extracted from video clips of differ
 
 ## Additional Experiments and Results for Fine-grained Image Retrieval
 We showcase robustness of proposed Robust Loss with its superior performance against state-of-the-art baselines for the task of order preserving fine-grained image retrieval. We have worked on following image datasets for Fine-grained image retrieval: 
-- **Cats and Dogs, CnD (Parkhi et al. 2012)**: It consists of 7384 images with class labels = [Dogs, Cats] and subclass labels = 25 dog and 12 cat breed names, 
+- **Cats and Dogs, CnD**(Parkhi et al. 2012): It consists of 7384 images with class labels = [Dogs, Cats] and subclass labels = 25 dog and 12 cat breed names, 
 - **Footwear, FtW** (Yu and Grauman 2014): This dataset consists of 50025 images with class labels = [Shoes, Sandals, Slipper, Boots] and subclass labels = 21 functional footwear types and lastly, 
 - **Face Pose, FcP** (fac ) consisting of 1890 images. Here, the class labels are assigned from [Front, Left, Right] whereas, the 90 subjects form the subclass labels for fine-grained categorization.
 
@@ -23,8 +23,8 @@ We showcase robustness of proposed Robust Loss with its superior performance aga
 |Quadlet(Ours) |81.82|0.97|93.92|0.91|83.74|0.91|91.74|0.66|53.93|0.89|80.56|0.67|
 |Radial(Ours) |**84.39**|**0.98**|**95.86**|**0.93**|**87.21**|**0.92**|**92.64**|**0.70**|**55.18**|**0.90**|**81.91**|**0.68**|
 
-        
 Table: Quantitative metrics for order-preserving image ranking task (QP, NDCG) and coarse-grained ranking task (TP, MAP).
+Note: For Quadlet Loss details, refer gupta2018learning.
 
 ## Citation
  If you use the dataset and research from our papers for further research, consider citing:
