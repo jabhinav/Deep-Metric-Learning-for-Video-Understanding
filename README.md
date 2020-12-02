@@ -9,6 +9,8 @@ The `Dog-Birds Dataset.zip` contains frames extracted from video clips of differ
 
 ## Additional Experiments and Results
 
+|       |||CnD||||FcP||||FtW||
+| ----- |---|----|---|---|---|----|---|---|---|----|---|---|
 |       | QP%|NDCG|TP%|MAP|QP%|NDCG|TP%|MAP|QP%|NDCG|TP%|MAP|
 | ----- |---|----|---|---|---|----|---|---|---|----|---|---|
 |Triplet|69.19|0.95|86.69|0.80|70.45|0.89|85.32|0.54|42.75|0.88|75.91|0.65|
@@ -16,7 +18,7 @@ The `Dog-Birds Dataset.zip` contains frames extracted from video clips of differ
 |Quadruplet-2a|76.90|0.94|89.91|0.85|77.65|0.90|88.52|0.61|45.88|0.87|76.13|0.66|
 |Quadruplet-2b|51.83|0.92|87.38|0.82|78.42|0.90|87.06|0.60|38.64|0.84|74.77|0.61|
 |Quadlet(Ours) |81.82|0.97|93.92|0.91|83.74|0.91|91.74|0.66|53.93|0.89|80.56|0.67|
-|Radial(Ours) |84.39|0.98|95.86|0.93|87.21|0.92|92.64| 0.70|55.18|0.90| 81.91|0.68|
+|Radial(Ours) |**84.39**|**0.98**|**95.86**|**0.93**|**87.21**|**0.92**|**92.64**|**0.70**|**55.18**|**0.90**|**81.91**|**0.68**|
 
         
 Table 3: Quantitative metrics for order-preserving image ranking task (QP, NDCG) and coarse-grained ranking task (TP, MAP).
