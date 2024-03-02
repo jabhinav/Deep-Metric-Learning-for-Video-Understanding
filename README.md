@@ -1,4 +1,4 @@
-# Contrastive Learning and Deep Video Understanding
+# Loss Formulation for Contrastive Learning with Usecase: Deep Video Understanding
 
 ## Dataset
 We provide a link to the dataset used for evaluating our proposed frameworks at https://archive.org/download/gt_20200215 .
