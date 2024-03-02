@@ -1,14 +1,14 @@
-# Deep-Video-Understanding
+# Contrastive Learning and Deep Video Understanding
 
 ## Dataset
-We provide link to dataset used for evaluating our proposed frameworks at https://archive.org/download/gt_20200215 .
+We provide a link to the dataset used for evaluating our proposed frameworks at https://archive.org/download/gt_20200215 .
 
-The critical frames dataset is labelled as `Sports Dataset.zip`. It (Version 2) contains approx 200 football highlights in the form of short clips (with extracted frames). If `clip-x` contains any critical frames, they are extracted and stored in a seprate folder under `Critical Frames` directory.
+The critical frames dataset is labelled as `Sports Dataset.zip`. It (Version 2) contains approximately 200 football highlights in short clips (with extracted frames). If `clip-x` contains any critical frames, they are extracted and stored in a separate folder under `Critical Frames` directory.
 
 The `Dog-Birds Dataset.zip` contains frames extracted from video clips of different breeds of dogs and birds used in the paper for fine-grained retrieval.
 
 ## Additional Experiments and Results for Fine-grained Image Retrieval
-We showcase robustness of proposed Robust Loss with its superior performance against state-of-the-art baselines for the task of order preserving fine-grained image retrieval. We have worked on following image datasets for Fine-grained image retrieval: 
+We present the robustness of the proposed losses (Quadlet and SOA Radial) with its superior performance against state-of-the-art baselines for order-preserving fine-grained image retrieval. We have worked on the following image datasets for Fine-grained image retrieval: 
 - **Cats and Dogs, CnD**(Parkhi et al. 2012): It consists of 7384 images with class labels = [Dogs, Cats] and subclass labels = 25 dog and 12 cat breed names, 
 - **Footwear, FtW** (Yu and Grauman 2014): This dataset consists of 50025 images with class labels = [Shoes, Sandals, Slipper, Boots] and subclass labels = 21 functional footwear types and lastly, 
 - **Face Pose, FcP** (fac ) consisting of 1890 images. Here, the class labels are assigned from [Front, Left, Right] whereas, the 90 subjects form the subclass labels for fine-grained categorization.
